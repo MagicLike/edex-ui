@@ -1,6 +1,6 @@
 name: Build packaged binaries
 
-on: [push, pull_request, create]
+on: [push, pull_request, create, workflow_dispatch]
 
 jobs:
   build-linux:
