@@ -2,9 +2,9 @@ name: Build packaged binaries
 
 on: 
   workflow_dispatch:
-  #push:
-  #pull_request:
-  #create:
+  push:
+  pull_request:
+  create:
 
 jobs:
   build-linux:
